@@ -29,7 +29,7 @@ import boto3auth
 resource = boto3auth.auth('ec2')
 
 # DynamoDB resource with assumed role
-resource - boto3auth.auth('dynamodb', 'resource', 'us-east-1', '123412341234', 'my-cool-role')
+resource = boto3auth.auth('dynamodb', 'resource', 'us-east-1', '123412341234', 'my-cool-role')
 
 # EC2 client in ca-central-1
 client = boto3auth.auth('ec2', 'client', 'ca-central-1')
