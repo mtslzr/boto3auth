@@ -1,6 +1,6 @@
 # boto3auth
 
-boto3auth is a simple (Python 3) wrapper for starting clients/services with Boto3.
+boto3auth is a simple (Python 3) wrapper for starting clients/resources with Boto3.
 
 ## Installation
 
@@ -13,12 +13,12 @@ pip install boto3auth
 ## Usage
 
 Required:
-  - resource: Chosen AWS resource (e.g. 'ec2', 'dynamodb', 'sqs', etc.)
-  - type: Chosen Boto3 Session ('resource' or 'client')
+  - `resource`: AWS resource (e.g. `ec2`, `dynamodb`, `sqs`, etc.)
+  - `type`: Boto3 Session type (`resource` or `client`)
 Optional:
-  - region: Chosen AWS region (e.g. 'us-east-1', 'ca-central-1', etc.)
-  - account_id: Chosen AWS account, if assuming role
-  - role: Chosen IAM role, if assuming role
+  - `region`: AWS region (e.g. `us-east-1`, `ca-central-1`, etc.)
+  - `account_id`: AWS account number (if assuming role)
+  - `role`: AWS IAM role (if assuming role)
 
 _boto3auth assumes you have local AWS credentials configured (or are using a system like [aws-vault])._
 
