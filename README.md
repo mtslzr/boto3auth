@@ -1,5 +1,7 @@
 # boto3auth
 
+[![Build Status](https://travis-ci.com/mtslzr/boto3auth.svg?branch=develop)](https://travis-ci.com/mtslzr/boto3auth)
+
 boto3auth is a simple (Python 3) wrapper for starting clients/resources with Boto3.
 
 ## Installation
