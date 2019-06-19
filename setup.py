@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="boto3auth",
-    version="1.0.2",
+    version="1.1.0",
     author="Matthew Salazar",
     author_email="m@tthewsalazar.com",
     description="Simple wrapper for starting Boto3 clients/resources.",
