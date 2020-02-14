@@ -1,6 +1,6 @@
 # boto3auth
 
-[![Build Status](https://travis-ci.com/mtslzr/boto3auth.svg?branch=develop)](https://travis-ci.com/mtslzr/boto3auth)
+[![CircleCI](https://circleci.com/gh/mtslzr/boto3auth.svg?style=svg)](https://circleci.com/gh/mtslzr/boto3auth)
 [![PyPI version](https://badge.fury.io/py/boto3auth.svg)](https://badge.fury.io/py/boto3auth)
 
 boto3auth is a simple (Python 3) wrapper for starting clients/resources with Boto3.
