@@ -15,7 +15,7 @@ class Boto3Auth:
         self.role = role
         self.sts = sts
 
-    def auth(self, resource, type='resource'):
+    def auth(self, resource, rtype='resource'):
         """Return client/service for selected resource."""
         sess = boto3.Session()
         if self.account_id and self.role:
@@ -27,7 +27,7 @@ class Boto3Auth:
                                               ['SecretAccessKey'],
                 aws_session_token=self.sts['Credentials']['SessionToken']
             )
-        if type == 'client':
+        if rtype == 'client':
             return sess.client(resource, region_name=self.region)
         return sess.resource(resource, region_name=self.region)
 
