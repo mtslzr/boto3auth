@@ -62,5 +62,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Visual Studio Code
+# Editors
+.idea
 .vscode
