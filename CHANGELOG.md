@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
-- Converted Travis to CircleCI.
+- Converted Travis to CircleCI 2.1.
 - Updated dependencies.
 
 ## [1.1.0] - 2019-06-19
